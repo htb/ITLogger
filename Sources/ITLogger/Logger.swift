@@ -2,6 +2,7 @@ import Foundation
 //import os.log
 import ITMulticastDelegate
 
+
 public protocol LoggerEventDelegate : class
 {
     func logger(_ logger: Logger, event entry: Logger.LogEntry)

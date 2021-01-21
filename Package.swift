@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "ITLogger", targets: ["ITLogger"]),
     ],
     dependencies: [
-        .package(url: "../ITMulticastDelegate", from: "0.0.1")
+        .package(path: "../ITMulticastDelegate")
     ],
     targets: [
         .target(name: "ITLogger", dependencies: []),

@@ -12,4 +12,4 @@ Then update the version number in the master branch and push like this
 
     git commit -a -m "Something changed"
     git tag 1.0.1
-    git push origin master --tags
+    git push origin main --tags
