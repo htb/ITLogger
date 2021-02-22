@@ -12,7 +12,7 @@ let package = Package(
         .package(url: "git@github.com:htb/ITMulticastDelegate.git", from: "1.0.0")
     ],
     targets: [
-        .target(name: "ITLogger", dependencies: []),
+        .target(name: "ITLogger", dependencies: ["ITMulticastDelegate"]),
         .testTarget(name: "ITLoggerTests", dependencies: ["ITLogger"]),
     ]
 )
