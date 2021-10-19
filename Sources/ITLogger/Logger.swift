@@ -3,7 +3,7 @@ import Foundation
 import ITMulticastDelegate
 
 
-public protocol LoggerEventDelegate : class
+public protocol LoggerEventDelegate : AnyObject
 {
     func logger(_ logger: Logger, event entry: Logger.LogEntry)
 }
